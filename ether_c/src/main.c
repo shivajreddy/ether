@@ -47,8 +47,8 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
   RegisterClass(&wc);
 
   HWND hwnd = CreateWindow(
-      "MyAppClass", "My C Windows App", WS_OVERLAPPEDWINDOW | WS_VISIBLE,
-      CW_USEDEFAULT, CW_USEDEFAULT, 400, 200, NULL, NULL, hInstance, NULL);
+      "MyAppClass", "ETHER 44", WS_OVERLAPPEDWINDOW | WS_VISIBLE, CW_USEDEFAULT,
+      CW_USEDEFAULT, 400, 200, NULL, NULL, hInstance, NULL);
 
   MSG msg;
   while (GetMessage(&msg, NULL, 0, 0)) {
