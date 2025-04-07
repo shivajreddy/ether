@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Ether (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "Ether (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

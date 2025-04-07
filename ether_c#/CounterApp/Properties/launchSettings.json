@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "CounterApp (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "CounterApp (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

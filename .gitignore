@@ -1,3 +1,50 @@
 **/.clang-format
 
 **/build/**
+
+# Build artifacts
+[Bb]in/
+[Oo]bj/
+*.dll
+*.exe
+*.pdb
+
+# VS specific
+.vs/
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+
+# CMake (if used)
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# NuGet packages
+*.nupkg
+packages/
+*.snupkg
+
+# MSBuild logs
+msbuild.log
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+*.ipch
+*.tlog
+*.lastbuildstate
+
+# Other
+*.cache
+*.db
+
+# Project-specific
+Generated Files/
+x64/
+ARM/
+ARM64/
+
